@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# Frontend Intern Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome — this repository contains the frontend intern assignment. The goal of this project is to demonstrate core frontend skills: component design, responsive layout, accessibility, state management, and build tooling.
 
-## Available Scripts
+> NOTE: This README is a template. Replace placeholders and example commands with the actual scripts and details from your project (npm/yarn/pnpm scripts, framework, and demo link).
 
-In the project directory, you can run:
+## Table of contents
+- [Project Overview](#project-overview)
+- [Demo](#demo)
+- [Features](#features)
+- [Tech stack](#tech-stack)
+- [Getting started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install dependencies](#install-dependencies)
+  - [Run locally](#run-locally)
+  - [Build for production](#build-for-production)
+- [Testing & quality](#testing--quality)
+- [Project structure](#project-structure)
+- [How to approach the assignment](#how-to-approach-the-assignment)
+- [Submitting your work](#submitting-your-work)
+- [Contributing / Notes for maintainers](#contributing--notes-for-maintainers)
+- [License & author](#license--author)
 
-### `npm start`
+## Project overview
+Briefly describe the assignment here: what the app should do, user stories, and acceptance criteria. Example:
+- A responsive single-page application that lists items, allows searching and filtering, and shows details for each item.
+- Accessible UI (keyboard and screen reader-friendly).
+- Mobile-first, responsive layout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Replace the above with the actual objective of this repository.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
+If you have a deployed demo, add the link here:
+- Live: https://example.com (replace with real URL)
 
-### `npm test`
+You can also add screenshots or GIFs demonstrating the UI.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features (example)
+- Responsive layout (mobile / tablet / desktop)
+- Search and filter
+- Item detail view (modal or route)
+- Form with validation
+- Accessible interactions (ARIA roles, keyboard focus management)
+- Basic unit / integration tests
 
-### `npm run build`
+## Tech stack
+List the technologies used. Example:
+- Framework: React (or Vue, Svelte, plain HTML/CSS/JS — replace as appropriate)
+- Bundler / dev server: Vite / Create React App / Next.js / other
+- Styling: CSS Modules / Tailwind / SASS / plain CSS
+- Testing: Jest + Testing Library / Cypress (E2E)
+- Linting / formatting: ESLint / Prettier
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Update this section to reflect the actual repo stack.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Node.js (LTS) installed
+- npm >= 8, or yarn / pnpm if used
 
-### `npm run eject`
+### Install dependencies
+Using npm:
+```bash
+npm install
+```
+Or using yarn:
+```bash
+yarn
+```
+Or using pnpm:
+```bash
+pnpm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Run locally
+Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+Open http://localhost:5173 (or the port shown in your terminal) to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Build for production
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
+Production files will be in the `dist/` (or `build/`) directory — update path according to your tooling.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Testing & quality
+Run unit and integration tests:
+```bash
+npm test
+# or
+yarn test
+```
+Run linter and formatter:
+```bash
+npm run lint
+npm run format
+```
+Update these commands to match the scripts defined in package.json.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project structure (example)
+Adjust to match the repository structure.
+```
+/src
+  /components     # Reusable components
+  /pages          # Page-level components or routes
+  /styles         # Global styles / variables
+  /utils          # Utility functions and helpers
+  main.jsx|ts     # App bootstrap
+/package.json
+/vite.config.js   # or equivalent bundler config
+/README.md
+```
 
-## Learn More
+## How to approach the assignment
+- Read the acceptance criteria thoroughly.
+- Start by implementing core functionality (data flow, primary screens).
+- Add styling and responsiveness next.
+- Ensure accessibility (semantic HTML, ARIA where needed, keyboard navigation).
+- Write tests for important components and flows.
+- Polish and optimize (images, bundle size) if time permits.
+- Document any decisions or trade-offs in a short `NOTES.md`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Submitting your work
+- Ensure code is pushed to the repository.
+- Include a short summary of what you implemented and any known limitations in the PR description or a `SUBMISSION.md`.
+- If the assignment required a deployed demo, include the deployment link.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Checklist (example):
+- [ ] App builds without errors
+- [ ] Core flows implemented
+- [ ] Responsive across common breakpoints
+- [ ] Basic tests present
+- [ ] Linting and formatting applied
+- [ ] README updated with accurate commands and demo link
 
-### Code Splitting
+## Contributing / Notes for maintainers
+This repository is an intern assignment — if you are reviewing:
+- Look for clarity in component boundaries and state management.
+- Check accessibility and responsiveness.
+- Confirm tests cover critical interactions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you are the intern, replace placeholders in this README with exact commands and links before submitting.
 
-### Analyzing the Bundle Size
+## License & author
+Specify the license (e.g., MIT) or the relevant project/license terms.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Author: Your Name (replace with the actual author)
+Contact: your.email@example.com
 
-### Making a Progressive Web App
+Acknowledgements: Any design systems, templates, or resources used.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
