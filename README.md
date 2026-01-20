@@ -5,7 +5,6 @@ Welcome — this repository contains the frontend intern assignment. The goal of
 
 ## Table of contents
 - [Project Overview](#project-overview)
-- [Demo](#demo)
 - [Features](#features)
 - [Tech stack](#tech-stack)
 - [Getting started](#getting-started)
@@ -15,10 +14,6 @@ Welcome — this repository contains the frontend intern assignment. The goal of
   - [Build for production](#build-for-production)
 - [Testing & quality](#testing--quality)
 - [Project structure](#project-structure)
-- [How to approach the assignment](#how-to-approach-the-assignment)
-- [Submitting your work](#submitting-your-work)
-- [Contributing / Notes for maintainers](#contributing--notes-for-maintainers)
-- [License & author](#license--author)
 
 ## Project overview
 Briefly describe the assignment here: what the app should do, user stories, and acceptance criteria. Example:
@@ -113,19 +108,6 @@ Adjust to match the repository structure.
 /README.md
 ```
 
-## How to approach the assignment
-- Read the acceptance criteria thoroughly.
-- Start by implementing core functionality (data flow, primary screens).
-- Add styling and responsiveness next.
-- Ensure accessibility (semantic HTML, ARIA where needed, keyboard navigation).
-- Write tests for important components and flows.
-- Polish and optimize (images, bundle size) if time permits.
-- Document any decisions or trade-offs in a short `NOTES.md`.
-
-## Submitting your work
-- Ensure code is pushed to the repository.
-- Include a short summary of what you implemented and any known limitations in the PR description or a `SUBMISSION.md`.
-- If the assignment required a deployed demo, include the deployment link.
 
 
 
