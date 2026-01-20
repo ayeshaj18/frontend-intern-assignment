@@ -2,7 +2,6 @@
 
 Welcome — this repository contains the frontend intern assignment. The goal of this project is to demonstrate core frontend skills: component design, responsive layout, accessibility, state management, and build tooling.
 
-> NOTE: This README is a template. Replace placeholders and example commands with the actual scripts and details from your project (npm/yarn/pnpm scripts, framework, and demo link).
 
 ## Table of contents
 - [Project Overview](#project-overview)
