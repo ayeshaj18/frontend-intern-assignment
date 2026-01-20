@@ -27,14 +27,6 @@ Briefly describe the assignment here: what the app should do, user stories, and 
 - Accessible UI (keyboard and screen reader-friendly).
 - Mobile-first, responsive layout.
 
-Replace the above with the actual objective of this repository.
-
-## Demo
-If you have a deployed demo, add the link here:
-- Live: https://example.com (replace with real URL)
-
-You can also add screenshots or GIFs demonstrating the UI.
-
 ## Features (example)
 - Responsive layout (mobile / tablet / desktop)
 - Search and filter
@@ -136,27 +128,5 @@ Adjust to match the repository structure.
 - Include a short summary of what you implemented and any known limitations in the PR description or a `SUBMISSION.md`.
 - If the assignment required a deployed demo, include the deployment link.
 
-Checklist (example):
-- [ ] App builds without errors
-- [ ] Core flows implemented
-- [ ] Responsive across common breakpoints
-- [ ] Basic tests present
-- [ ] Linting and formatting applied
-- [ ] README updated with accurate commands and demo link
 
-## Contributing / Notes for maintainers
-This repository is an intern assignment — if you are reviewing:
-- Look for clarity in component boundaries and state management.
-- Check accessibility and responsiveness.
-- Confirm tests cover critical interactions.
-
-If you are the intern, replace placeholders in this README with exact commands and links before submitting.
-
-## License & author
-Specify the license (e.g., MIT) or the relevant project/license terms.
-
-Author: Your Name (replace with the actual author)
-Contact: your.email@example.com
-
-Acknowledgements: Any design systems, templates, or resources used.
 
